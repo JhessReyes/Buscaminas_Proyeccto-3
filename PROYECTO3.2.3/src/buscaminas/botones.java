@@ -78,7 +78,7 @@ public class botones extends JButton {
                         if ((x + i) >= 0 && (x + i) < principal.nFilas) {
                             for (int j = -1; j <= 1; j++) {
                                 System.out.println((y + i) + " " + (y + i )+ " " + principal.ncolumnas);
-                                if ((y + i) >= 0 && (y + j) < principal.ncolumnas && principal.bn[x + i][y + j].isMina()==true) {
+                                if ((y + j) >= 0 && (y + j) < principal.ncolumnas && principal.bn[x + i][y + j].isMina()==true) {
                                     cont++;
                                 }
                             }
